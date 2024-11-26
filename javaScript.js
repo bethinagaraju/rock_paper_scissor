@@ -5,6 +5,7 @@ var btn = document.getElementsByClassName("btn");
 var ans = document.getElementById("score");
 var winn = document.getElementById("win");
 var body = document.body;
+var rstbtn = document.getElementById("rst-btn");
 
 
 var user = 0;
@@ -82,5 +83,10 @@ function check(user){
     return -1;
 
 } 
+
+function rstbtn(){
+    window.location.href = 'index.html';
+
+}
 
 
